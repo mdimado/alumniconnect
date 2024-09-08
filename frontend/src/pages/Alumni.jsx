@@ -63,7 +63,7 @@ const alumniData = [
 const Alumni = () => {
   return (
     <div>
-      <div className="hero-section">
+      <div className="hero-sectionn">
         <p>Find and connect with alumni from various fields and industries. Grow your network and explore opportunities!</p>
       </div>
 
