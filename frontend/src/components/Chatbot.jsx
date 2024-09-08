@@ -39,7 +39,7 @@ const Chatbot = () => {
             <div className="chat-window">
                 {chatHistory.map((chat, index) => (
                     <div key={index} className={`chat-message ${chat.sender}-message`}>
-                        {chat.sender === 'user' ? 'You' : 'Bot'}: <Markdown>{chat.message}</Markdown>
+                        {chat.sender === 'user' ? 'You' : 'Bot'} <Markdown>{chat.message}</Markdown>
                     </div>
                 ))}
             </div>
